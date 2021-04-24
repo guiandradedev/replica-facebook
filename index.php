@@ -63,9 +63,7 @@
                         <h2>Data de nascimento</h2>
                         <select name="nascimento-dia" id="" class="nascimento">
                             <?php
-                            
                                 for ($i=1;$i<=31;$i++){
-
                             ?>
                             <option value="<?php echo $i;?>"><?php echo $i; ?></option>
                             <?php } ?>
@@ -86,9 +84,7 @@
                         </select>
                         <select name="nascimento-dia" id="" class="nascimento">
                         <?php
-                            
                             for ($i=2021;$i>=1960;$i--){
-
                         ?>
                         <option value="<?php echo $i;?>"><?php echo $i; ?></option>
                         <?php } ?>
