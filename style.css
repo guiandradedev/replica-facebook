@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+.center {
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+.clear {
+    clear: both;
+}
+header {
+    background-color: #3665af;
+    padding: 8px 0;
+}
+.logo {
+    float: left;
+    color: #fff;
+}
+.logo h2 {
+    font-size: 29px;
+    font-weight: normal;
+}
+form.formLogin {
+    float: right;
+}
+.formLogin .formElement {
+    display: inline-block;
+    margin-right: 15px;
+}
+.formElement p {
+    color: #fff;
+    font-size: 14px;
+}
+.formElement input[type=email], .formElement input[type=password] {
+    margin-top: 4px;
+    border: 0;
+    height: 22px;
+    padding-left: 3px;
+}
+.formElement input[type=submit] {
+    cursor: pointer;
+    background-color: #1969e5;
+    border: 2px solid #215ab2;
+    color: #fff;
+    padding: 3px 5px;
+}
+.formElement input[type=submit]:hover {
+    background: #215ab2;
+}
+section.main {
+    background: linear-gradient(white, #d3d8e8);
+    padding: 40px 0;
+}
+.imgPessoas {
+    float: left;
+    width: 60%;
+}
+.imgPessoas img{
+    max-width: 100%;
+}
+.abrirConta {
+    float: left;
+    width: 40%;
+}
+.abrirConta h2 {
+    color: black;
+    font-size: 35px;
+}
+.abrirConta h3 {
+    font-size: 19px;
+    color: rgb(30,30,30);
+    margin-top: 8px;
+    font-weight: normal;
+}
+form .criarConta {
+    margin-top: 10px;
+}
+.w50 {
+    width: 50%;
+    padding: 0 5px;
+    float: left;
+}
+.w100 {
+    width: 100%;
+    padding: 0 5px;
+    float: left;
+}
+form.criarConta input {
+    width: 100%;
+    margin-top: 8px;
+}
+
+form.criarConta input[type=email],
+form.criarConta input[type=text],
+form.criarConta input[type=password] {
+    height: 40px;
+    border: 1px solid #a5dcff;
+    padding-left: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+form.criarConta input[type=submit] {
+    height: 40px;
+    background: linear-gradient(#67ae55, #578843);
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    max-width: 200px;
+    font-size: 19px;
+}
+form .w100 h2 {
+    margin-top: 10px;
+    color: #1d2129;
+    font-size: 22px;
+    font-weight: normal;
+}
+form select.nascimento {
+    float: left;
+    margin-top: 5px;
+}
+.inputRadio {
+    float: left;
+    margin: 8px 10px;
+}
+.inputRadio h2{
+    display: inline-block;
+}
+.inputRadio input[type=radio] {
+    display: inline-block;
+    width: auto !important;
+}
+section.linguas a {
+    color: #365899;
+    font-size: 13px;
+    text-decoration: none;
+    padding-right: 15px;
+}
+section.linguas {
+    padding: 30px 0;
+    background: white;
+}
+section.linguas a.selectedLinguas {
+    color: #737373;
+}
+section.linguas .center{
+    padding: 0 8px 10px 8px;
+    border-bottom: 1px solid #ccc;
+}
