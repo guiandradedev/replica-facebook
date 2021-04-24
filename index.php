@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -39,6 +39,7 @@
     <section class="main">
         <div class="center">
             <div class="imgPessoas">
+                <h3>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h3>
                 <img src="img1.png" alt="">
             </div>
             <div class="abrirConta">
@@ -103,6 +104,10 @@
                         <div class="inputRadio">
                             <input type="radio" name="genero" id="" value="feminino">
                             <h2>Feminino</h2>
+                        </div>
+                        <div class="inputRadio">
+                            <input type="radio" name="genero" id="" value="feminino">
+                            <h2>Outro</h2>
                         </div>
                         <div class="clear"></div>
                     </div>

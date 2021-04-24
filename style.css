@@ -13,7 +13,7 @@
     clear: both;
 }
 header {
-    background-color: #3665af;
+    background-color: #3B5998;
     padding: 8px 0;
 }
 .logo {
@@ -43,13 +43,13 @@ form.formLogin {
 }
 .formElement input[type=submit] {
     cursor: pointer;
-    background-color: #1969e5;
-    border: 2px solid #215ab2;
+    background-color: #3a6cd6;
     color: #fff;
+    border: 0;
     padding: 3px 5px;
 }
 .formElement input[type=submit]:hover {
-    background: #215ab2;
+    background: #1f4ba6;
 }
 section.main {
     background: linear-gradient(white, #d3d8e8);
@@ -58,6 +58,11 @@ section.main {
 .imgPessoas {
     float: left;
     width: 60%;
+}
+.imgPessoas h3 {
+    max-width: 460px;
+font-size: 20px;
+color: #0e385f;
 }
 .imgPessoas img{
     max-width: 100%;
@@ -98,10 +103,11 @@ form.criarConta input[type=email],
 form.criarConta input[type=text],
 form.criarConta input[type=password] {
     height: 40px;
-    border: 1px solid #a5dcff;
+    border: 1px solid #ccd0d5;
+    outline: none;
     padding-left: 10px;
     font-size: 20px;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 form.criarConta input[type=submit] {
     height: 40px;
@@ -121,10 +127,15 @@ form .w100 h2 {
 form select.nascimento {
     float: left;
     margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccd0d5
 }
 .inputRadio {
     float: left;
-    margin: 8px 10px;
+    margin: 8px 6px;
 }
 .inputRadio h2{
     display: inline-block;
@@ -149,4 +160,36 @@ section.linguas a.selectedLinguas {
 section.linguas .center{
     padding: 0 8px 10px 8px;
     border-bottom: 1px solid #ccc;
+}
+@media screen and (max-width:768px){
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+    form.formLogin {
+        float: none;
+        margin-top: 5px;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    .formLogin .formElement {
+        display: block;
+        margin: 10px 0;
+    }
+    .formElement input[type=email],
+    .formElement input[type=password] {
+        width: 100%;
+        max-width: 350px;
+        height: 30px;
+    }
+    .formElement input[type=submit] {
+        width: 200px;
+    }
+    .imgPessoas {
+        display: none;
+    }
+    .abrirConta {
+        width: 100%;
+    }
 }
